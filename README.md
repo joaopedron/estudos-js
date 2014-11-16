@@ -1,6 +1,4 @@
 # Documentação dos meus estudos com Javascript (pt-br)
----
-
 
 ##Manipulação de erros com Javascript
 
@@ -806,3 +804,9 @@ Esse metódo tem a função inversa do metódo charCodeAt(), tendo conhecimento 
 
 
 
+=======
+estudos-js
+==========
+
+Meus estudos com Javascript
+>>>>>>> 4cef19b9f99f428d6236c839822d52ba10b3705d
