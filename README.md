@@ -1,34 +1,28 @@
-# Documentação dos meus estudos com Javascript (pt-br)
-
-##Manipulação de erros com Javascript
-
+### Documentação dos meus estudos com Javascript (pt-br)
+---
+####Manipulação de erros com Javascript
 O Objeto Error possui duas propriedades e um método (função):
 
-  Propriedades:
+Propriedades:
     - Name
     - Message
-  Metódo:
+ Metódo:
     - toString();
-
   A propriedade name pode retornar os seguintes valores:
     - ReferenceError
     - EvalError
     - RangeError
     - SintaxeError
     - TypeError
+  Já a propriedade message retorna uma string com a mensagem do error, veja um exemplo:
 
-  Já a propriedade message retorna uma string com a mensagem do error.
+    ReferenceError: x is not defined
+    Primeira propriedade faz referência ao nome do error (propriedade Error.name)
+    Segunda propriedade faz referência a mensagem do error (propriedade Error.message)
 
-    Exemplo: `ReferenceError: x is not defined`
-              [• 1 •]         [• 2 •]
-
-    [• 1 •] = Ao nome do error (propriedade Error.name)
-    [• 2 •] = Ao a mensagem do error (propriedade Error.message)
-
-  O metódo toString() retorna um string com a propriedade Error.name e Error.message.
+O metódo `toString();` retorna um string com a propriedade `Error.name` e`Error.message`.
 
 ---
-
 Existe outra maneira de declarar o throw, veja:
 
  Primeira maneira:
