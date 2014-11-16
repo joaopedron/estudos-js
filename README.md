@@ -4,23 +4,26 @@
 O Objeto Error possui duas propriedades e um método (função):
 
 Propriedades:
-    - Name
-    - Message
- Metódo:
-    - toString();
-  A propriedade name pode retornar os seguintes valores:
-    - ReferenceError
-    - EvalError
-    - RangeError
-    - SintaxeError
-    - TypeError
-  Já a propriedade message retorna uma string com a mensagem do error, veja um exemplo:
+  - Name
+  - Message
+
+Metódo:
+  - toString();
+    O metódo `toString();` retorna um string com a propriedade `Error.name` e`Error.message`.
+A propriedade name pode retornar os seguintes valores:
+  - ReferenceError
+  - EvalError
+  - RangeError
+  - SintaxeError
+  - TypeError
+
+Já a propriedade message retorna uma string com a mensagem do error, veja um exemplo:
 
     ReferenceError: x is not defined
     Primeira propriedade faz referência ao nome do error (propriedade Error.name)
     Segunda propriedade faz referência a mensagem do error (propriedade Error.message)
 
-O metódo `toString();` retorna um string com a propriedade `Error.name` e`Error.message`.
+
 
 ---
 Existe outra maneira de declarar o throw, veja:
