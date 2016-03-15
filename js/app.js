@@ -25,3 +25,16 @@ carro.adicionarPessoas = function (numeroPessoas) {
     carro.quantidadePessoas += numeroPessoas;
     return 'Já temos ' + carro.quantidadePessoas + ' pessoas no carro!';
 };
+
+
+console.log(carro.adicionarPessoas(3));
+
+carro.removerPessoas = function (numeroPessoas) {
+    var totalPessoas = carro.quantidadePessoas - numeroPessoas;
+    var wordOne = totalPessoas === 1 ? 'pessoa' : 'pessoas';
+
+    carro.quantidadePessoas -= numeroPessoas;
+    return "foi removido " + carro.quantidadePessoas + " " + wordOne + "!";
+};
+
+console.log(carro.removerPessoas(2));
